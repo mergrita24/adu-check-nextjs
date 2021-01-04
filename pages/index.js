@@ -8,11 +8,6 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <title>Site under maintenance</title>
       <link rel="icon" href="/favicon.ico" />
-
-      {/* jQuery first, then Popper.js, then Bootstrap JS */}
-      <script src="/scripts/jquery.min.js"></script>
-      <script src="/scripts/popper.min.js"></script>
-      <script src="/scripts/bootstrap.min.js"></script>
     </Head>
 
     <main>
@@ -23,6 +18,12 @@ const Home = () => (
     </main>
 
     <Footer />
+
+    
+    {/* jQuery first, then Popper.js, then Bootstrap JS */}
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/popper.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
   </div>
 );
 
