@@ -1,0 +1,46 @@
+footer.adu-footer {
+  min-height: 275px;
+  background-color: #101010;
+  color: #5b5b5b;
+  font-size: 0.9375rem;
+
+  a {
+    color: var(--bs-white);
+  }
+
+  .inner-content--left {
+    p.adu-tagline {
+      font-weight: $font-weight--regular;
+    }
+  }
+
+  .inner-content--right {
+    .adu-footer--menu--title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      font-weight: $font-weight--bold;
+      font-style: normal;
+      margin-bottom: 1.45rem;
+    }
+
+    ul {
+      li {
+        &:not(:first-child) {
+          margin-top: 1.25rem;
+        }
+      }
+
+      a {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+div.adu-copyright {
+  min-height: 59px;
+  background-color: #101010;
+  border-top: 1px solid #5b5b5b;
+  color: var(--bs-white);
+  font-size: 0.9375rem;
+}

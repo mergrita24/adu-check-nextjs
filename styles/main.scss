@@ -1,2 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../styles/globals.scss";
+
+// Custom
+@import "typography";
+@import "general";
+
+// Sections
+@import "footer";
