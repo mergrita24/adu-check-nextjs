@@ -5,7 +5,7 @@ function Application({ Component, pageProps }) {
   useEffect(() => {
     import("jquery").then($ => {
       // jQuery must be installed to the `window`:
-      window.$ = window.jQuery = $;
+      //window.$ = window.jQuery = $;
       return import("bootstrap");
     });
   }, []);
