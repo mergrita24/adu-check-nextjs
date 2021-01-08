@@ -9,12 +9,16 @@ footer.adu-footer {
   }
 
   .inner-content--left {
+    text-align: center;
+
     p.adu-tagline {
       font-weight: $font-weight--regular;
     }
   }
 
   .inner-content--right {
+    text-align: center;
+
     .adu-footer--menu--title {
       font-size: 0.75rem;
       text-transform: uppercase;
@@ -32,7 +36,25 @@ footer.adu-footer {
 
       a {
         text-transform: uppercase;
+
+        i[class^="adu-icon-"], 
+        i[class*=" adu-icon-"] {
+          font-size: 1.125rem;
+          vertical-align: middle;
+        }
+
+        i[class^="adu-icon-"] ~ span, 
+        i[class*=" adu-icon-"] ~ span {
+          vertical-align: middle;
+        }
       }
+    }
+  }
+
+  @media only screen and (min-width: 576px) {
+    .inner-content--left,
+    .inner-content--right {
+      text-align: unset;
     }
   }
 }
@@ -43,4 +65,38 @@ div.adu-copyright {
   border-top: 1px solid #5b5b5b;
   color: var(--bs-white);
   font-size: 0.9375rem;
+
+  a {
+    color: var(--bs-white);
+  }
+
+  .inner-content--left {
+    text-align: center;
+  }
+
+  .inner-content--right {
+    text-align: center;
+
+    ul {
+      li {
+        &:not(:first-child) {
+          margin-left: 1.875rem;
+        }
+
+        &:not(:last-child) {
+          margin-right: 1.875rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 576px) {
+    .inner-content--left {
+      text-align: unset;
+    }
+
+    .inner-content--right {
+      text-align: right;
+    }
+  }
 }

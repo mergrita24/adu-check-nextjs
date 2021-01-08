@@ -1,0 +1,49 @@
+$adu-icon-font-family: "adu-icon" !default;
+$adu-icon-font-path: "../public/fonts/AduIcons" !default;
+
+$adu-icon-instagram: "\e900";
+$adu-icon-youtube: "\e901";
+$adu-icon-facebook: "\e902";
+
+@font-face {
+  font-family: '#{$adu-icon-font-family}';
+  src:  url('#{$adu-icon-font-path}/#{$adu-icon-font-family}.eot?5sd8g7');
+  src:  url('#{$adu-icon-font-path}/#{$adu-icon-font-family}.eot?5sd8g7#iefix') format('embedded-opentype'),
+    url('#{$adu-icon-font-path}/#{$adu-icon-font-family}.ttf?5sd8g7') format('truetype'),
+    url('#{$adu-icon-font-path}/#{$adu-icon-font-family}.woff?5sd8g7') format('woff'),
+    url('#{$adu-icon-font-path}/#{$adu-icon-font-family}.svg?5sd8g7##{$adu-icon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="adu-icon-"], [class*=" adu-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$adu-icon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.adu-icon-instagram {
+  &:before {
+    content: $adu-icon-instagram; 
+  }
+}
+.adu-icon-youtube {
+  &:before {
+    content: $adu-icon-youtube; 
+  }
+}
+.adu-icon-facebook {
+  &:before {
+    content: $adu-icon-facebook; 
+  }
+}
