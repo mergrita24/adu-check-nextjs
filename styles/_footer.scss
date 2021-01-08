@@ -6,6 +6,11 @@ footer.adu-footer {
 
   a {
     color: var(--bs-white);
+
+    &:hover,
+    &:focus {
+      color: #da4c39;
+    }
   }
 
   .inner-content--left {
@@ -68,6 +73,11 @@ div.adu-copyright {
 
   a {
     color: var(--bs-white);
+
+    &:hover,
+    &:focus {
+      color: #da4c39;
+    }
   }
 
   .inner-content--left {

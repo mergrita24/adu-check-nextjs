@@ -6,12 +6,13 @@ const Home = () => (
   <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <title>Site under maintenance</title>
+      <title>ADUCheck.com | Easiest way to find ADU potential of your property</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
+    <Header />
+
     <main className="adu-main">
-      <Header title="Site under maintenance." />
       <p className="description">
         Get started by editing <code>pages/index.js</code>
       </p>
