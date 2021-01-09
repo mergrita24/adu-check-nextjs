@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 function Navigation() {
   return (
     <>
@@ -8,20 +6,36 @@ function Navigation() {
           <img src="/adu-check-logo-1.svg" className="adu-logo" alt="" />
         </a>
         
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#aduNavbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
+
+        <ul className="navbar-nav outside-collapse d-inline d-lg-none">
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <i className="adu-icon-avatar"></i>
+            </a>
+          </li>
+        </ul>
           
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="aduNavbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Adu Inspiration</a>
+              <a className="nav-link" aria-current="page" href="#">Adu Inspiration</a>
             </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#">Partners</a>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link" href="#">Get Adu Report</a>
+              <a className="nav-link convert-btn" href="#">Get Adu Report</a>
+            </li>
+
+            <li className="nav-item d-none d-lg-inline">
+              <a className="nav-link" href="#">
+                <i className="adu-icon-avatar"></i>
+              </a>
             </li>
           </ul>
         </div>

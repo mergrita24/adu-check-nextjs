@@ -42,14 +42,14 @@ footer.adu-footer {
       a {
         text-transform: uppercase;
 
-        i[class^="adu-icon-"], 
-        i[class*=" adu-icon-"] {
+        i, 
+        i {
           font-size: 1.125rem;
           vertical-align: middle;
         }
 
-        i[class^="adu-icon-"] ~ span, 
-        i[class*=" adu-icon-"] ~ span {
+        i ~ span, 
+        i ~ span {
           vertical-align: middle;
         }
       }

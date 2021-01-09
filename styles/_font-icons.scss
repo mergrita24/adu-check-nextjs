@@ -4,6 +4,7 @@ $adu-icon-font-path: "../public/fonts/AduIcons" !default;
 $adu-icon-instagram: "\e900";
 $adu-icon-youtube: "\e901";
 $adu-icon-facebook: "\e902";
+$adu-icon-avatar: "\e903";
 
 @font-face {
   font-family: '#{$adu-icon-font-family}';
@@ -45,5 +46,11 @@ $adu-icon-facebook: "\e902";
 .adu-icon-facebook {
   &:before {
     content: $adu-icon-facebook; 
+  }
+}
+
+.adu-icon-avatar {
+  &:before {
+    content: $adu-icon-avatar; 
   }
 }
