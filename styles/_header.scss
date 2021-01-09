@@ -117,6 +117,26 @@ nav.adu-nav {
 section.adu-hero-banner {
   min-height: 598px;
 
+  .inner-content {
+    h1 {
+      font-weight: $font-weight--extra-bold;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      a {
+        color: var(--bs-white);
+        font-weight: $font-weight--semi-bold;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus {
+          color: #da4c39;
+        }
+      }
+    }
+  }
+
   div.vector-container {
     position: absolute;
     overflow: hidden;
