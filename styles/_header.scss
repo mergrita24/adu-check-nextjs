@@ -8,6 +8,13 @@ header.adu-header {
 nav.adu-nav {
   .navbar-brand {
     color: var(--bs-white);
+    width: 60%;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
   }
 
   .navbar-toggler {
@@ -56,6 +63,18 @@ nav.adu-nav {
 
   .outside-collapse {
     margin-left: 1.25rem;
+  }
+
+  @media only screen and (min-width: 400px) {
+    .navbar-brand {
+      width: auto;
+
+      img {
+        max-width: unset;
+        width: unset;
+        height: unset
+      }
+    }
   }
 
   @media only screen and (min-width: 992px) {
