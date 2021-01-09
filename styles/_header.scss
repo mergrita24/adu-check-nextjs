@@ -1,9 +1,10 @@
 header.adu-header {
-  min-height: 680px;
+  min-height: 400px;
   background-color: #00235a;
   color: var(--bs-white);
 }
 
+// Navigation
 nav.adu-nav {
   .navbar-brand {
     color: var(--bs-white);
@@ -89,6 +90,25 @@ nav.adu-nav {
 
     .outside-collapse {
       margin-left: 0.625rem;
+    }
+  }
+}
+
+// Hero Banner
+section.adu-hero-banner {
+  min-height: 598px;
+
+  div.vector-container {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -1px;
+
+    img {
+      width: 100%;
+      margin-bottom: -4.75%;
     }
   }
 }
