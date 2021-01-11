@@ -118,6 +118,14 @@ section.adu-hero-banner {
   min-height: 598px;
 
   .inner-content {
+    position: relative;
+    z-index: 10;
+
+    a {
+      color: var(--bs-white);
+      font-weight: $font-weight--semi-bold;
+    }
+
     h1 {
       font-weight: $font-weight--extra-bold;
       text-transform: uppercase;
@@ -125,13 +133,49 @@ section.adu-hero-banner {
 
     h4 {
       a {
-        color: var(--bs-white);
-        font-weight: $font-weight--semi-bold;
         text-decoration: underline;
 
         &:hover,
         &:focus {
           color: #da4c39;
+        }
+      }
+    }
+
+    form {
+      input {
+        height: 3.875rem;
+        color: #656565;
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+      }
+
+      button[class*=" adu-btn-"] {
+        height: 3.875rem;
+        text-transform: uppercase;
+      }
+    }
+
+    .adu-h6--how-it-works {
+      margin-top: 1.75rem;
+      text-transform: uppercase;
+      font-weight: $font-weight--semi-bold;
+      letter-spacing: 0.25px;
+
+      a {
+        border: 2px solid #da4c39;
+        padding: 0rem 0.43rem 0rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        font-size: 0.95rem;
+        color: #da4c39;
+        font-weight: $font-weight--extra-bold;
+
+        &:hover,
+        &:focus {
+          color: #d26253;
+          border-color: #d26253;
         }
       }
     }
@@ -148,6 +192,27 @@ section.adu-hero-banner {
     img {
       width: 100%;
       margin-bottom: -4.75%;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .inner-content {
+      form {
+        button[class*=" adu-btn-"] {
+          width: 15.625rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .inner-content {
+      form {
+        input {
+          width: 28.125rem;
+          flex: unset;
+        }
+      }
     }
   }
 }

@@ -6,8 +6,8 @@ function Hero_Banner() {
       <section className="adu-hero-banner position-relative d-flex align-items-center">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-lg-9">
-              <div className="inner-content my-5">
+            <div className="col-12 col-lg-10 col-xl-9">
+              <div className="inner-content my-5 mt-md-3">
                 <h1>
                   Easiest way to find ADU potential of your property
                 </h1>
@@ -19,6 +19,20 @@ function Hero_Banner() {
                     <a>Know more about ADUs</a>
                   </Link>
                 </h4>
+
+                <form className="adu-form--address mt-5">
+                  <div className="input-group">
+                    <input type="text" className="form-control" placeholder="Enter your property address" aria-label="Enter your property address" aria-describedby="button-addon2" />
+                    <button className="btn adu-btn--orange" type="button" id="button-addon2">Get ADU Report</button>
+                  </div>
+                </form>
+
+                <h6 className="adu-h6--how-it-works">
+                  How it Works&nbsp;&nbsp;
+                  <Link href="/">
+                    <a>?</a>
+                  </Link>
+                </h6>
               </div>
             </div>
           </div>

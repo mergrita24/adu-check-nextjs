@@ -24,3 +24,38 @@ a {
     color: #da4c39;
   }
 }
+
+.form-control {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background-clip: border-box;
+
+  &:focus { 
+    box-shadow: none;
+    border-color: #ced4da;
+  }
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &.adu-btn--orange {
+    background-color: #da4c39;
+    color: var(--bs-white);
+    font-weight: $font-weight--semi-bold;
+    border-color: #da4c39;
+
+    &:hover,
+    &:focus {
+      border-color: #d26253;
+      background-color: #d26253;
+    }
+  }
+}
