@@ -6,7 +6,6 @@ function Header() {
     <>
       <header className="adu-header position-relative">
         <Navigation />
-
         <Hero_Banner />
       </header>
     </>
