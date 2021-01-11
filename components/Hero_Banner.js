@@ -4,17 +4,19 @@ function Hero_Banner() {
   return (
     <>
       <section className="adu-hero-banner position-relative d-flex align-items-center">
+        <img src="/housing-avatar.svg" className="vector-housing-avatar img-fluid" />
+        
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-10 col-xl-9">
-              <div className="inner-content my-5 mt-md-3">
+              <div className="inner-content my-5 mt-md-2">
                 <h1>
-                  Easiest way to find ADU potential of your property
+                  Easiest way to find <span className="adu-custom-underline">ADU potential</span> of your property
                 </h1>
 
                 <h4 className="mt-4">
-                  Get a free property value card and with cost estimations 
-                  to build an ADU and enhanced value of your property.&nbsp;
+                  Get a free property value card and with cost estimations to build an ADU and <br /> 
+                  enhanced value of your property.&nbsp;
                   <Link href="/">
                     <a>Know more about ADUs</a>
                   </Link>
