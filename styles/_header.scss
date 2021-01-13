@@ -107,6 +107,11 @@ nav.adu-nav {
       }
     }
 
+    .navbar-collapse {
+      padding-top: unset;
+      padding-bottom: unset;
+    }
+
     .outside-collapse {
       margin-left: 0.625rem;
     }
