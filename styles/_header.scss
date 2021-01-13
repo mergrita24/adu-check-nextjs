@@ -120,8 +120,7 @@ section.adu-hero-banner {
   img.vector-housing-avatar {
     position: absolute;
     right: 0;
-    width: 48%;
-    bottom: 5%;
+    bottom: 15%;
   }
 
   .inner-content {
@@ -203,6 +202,10 @@ section.adu-hero-banner {
   }
 
   @media only screen and (min-width: 992px) {
+    img.vector-housing-avatar {
+      bottom: 5%;
+    }
+
     .inner-content {
       form {
         button[class*=" adu-btn-"] {

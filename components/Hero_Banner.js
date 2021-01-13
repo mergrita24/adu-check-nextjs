@@ -15,7 +15,7 @@ function Hero_Banner() {
                 </h1>
 
                 <h4 className="mt-4">
-                  Get a free property value card and with cost estimations to build an ADU and <br /> 
+                  Get a free property value card and with cost estimations to build an ADU and 
                   enhanced value of your property.&nbsp;
                   <Link href="/">
                     <a>Know more about ADUs</a>
