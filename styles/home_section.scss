@@ -3,18 +3,26 @@
   text-transform: uppercase;
   font-weight: 800;
   color: #00235a;
+  line-height: 1;
 }
 .an-accessory {
   text-align: left;
-  font-size: 30x;
-  line-height: 1.67;
+  font-size: 1.4em;
   color: #000000;
+  margin-top: 25px;
+}
+
+.adu-checkmark {
+  position: relative;
+  right: 20px;
+  top: 15px;
 }
 
 .adu-checkmark > li {
   display: flex;
   align-items: center;
   border: none;
+  margin-top: 10px;
 }
 
 .adu-checkmark > li > span {
@@ -36,4 +44,22 @@
 
 .adu_1 {
   width: 100%;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1110px) {
+  .what-is-adu {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .what-is-adu {
+    font-size: 35px;
+  }
+  .adu_1 {
+    top: 50px;
+  }
 }

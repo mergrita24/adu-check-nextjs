@@ -4,7 +4,7 @@ const Home_section = () => (
    <section className="home_section">
      <div  className="container-fluid">
        <div className="row adu_row">
-           <div className="col-md-5">
+           <div className="col-md-5 adu-col-1">
             <h1 className="what-is-adu">WHAT IS AN ADU?</h1>
             <p className="an-accessory">An accessory dwelling unit (ADU) is a legal and regulatory term for a secondary house or apartment that shares the building lot of a larger, primary house.</p>
             <ul className="list-group adu-checkmark">
