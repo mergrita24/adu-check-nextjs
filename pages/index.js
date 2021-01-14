@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Home_section from '@components/Home_section';
+
 
 const Home = () => (
   <>
@@ -14,7 +16,7 @@ const Home = () => (
     </Head>
 
     <Header />
-
+    <Home_section />
     <main className="adu-main">
       <div className="w-100 text-center py-5 my-5">
         <h1>Site under construction</h1>
