@@ -1,42 +1,39 @@
-.what-is-adu
-{ 
-    text-align:left;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #00235a;
+.what-is-adu {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #00235a;
 }
 .an-accessory {
-   text-align:left;
-   font-size: 30x;
-   line-height: 1.67;
-   color: #000000;
-
-}
-
-.adu-checkmark >li {
-  display: flex;
-  align-items:center;
-  border: none; 
-}
-
-.adu-checkmark > li >span {
   text-align: left;
-  font-size:18px;
+  font-size: 30x;
+  line-height: 1.67;
+  color: #000000;
+}
+
+.adu-checkmark > li {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.adu-checkmark > li > span {
+  text-align: left;
+  font-size: 18px;
   font-weight: bold;
   color: #000000;
 }
-.adu-checkmark >li >img {
-   margin-right: 20px;
-   margin-top: 5px;
-
+.adu-checkmark > li > img {
+  margin-right: 20px;
+  margin-top: 5px;
 }
 .adu_row {
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .adu_1 {
-    width:100%;
+  width: 100%;
 }
