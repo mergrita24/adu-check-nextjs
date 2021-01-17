@@ -1,65 +1,51 @@
-.what-is-adu {
+.adu-sec1--what-is-adu {
   text-align: left;
   text-transform: uppercase;
   font-weight: 800;
   color: #00235a;
-  line-height: 1;
+  font-size: 2rem;
 }
-.an-accessory {
+.adu-sec1--an-accessory {
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #000000;
-  margin-top: 25px;
+  line-height: 1.5;
+  margin-top: 1.563rem;
 }
 
-.adu-checkmark {
+.adu-sec1--checkmark {
   position: relative;
-  right: 20px;
-  top: 15px;
+  right: 1.25rem;
+  top: 0.938rem;
 }
 
-.adu-checkmark > li {
+.adu-sec1--checkmark > li {
   display: flex;
   align-items: center;
   border: none;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
-.adu-checkmark > li > span {
+.adu-sec1--checkmark > li > span {
   text-align: left;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
+  line-height: 1.5;
   color: #000000;
 }
-.adu-checkmark > li > img {
-  margin-right: 20px;
-  margin-top: 5px;
-}
-.adu_row {
-  min-height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.adu-sec1--checkmark > li > img {
+  margin-right: 1.25rem;
+  margin-top: 0.313rem;
 }
 
-.adu_1 {
+.adu-img1 {
   width: 100%;
-  position: relative;
-  top: 20px;
-  text-align: center;
 }
 
-@media only screen and (max-width: 1110px) {
-  .what-is-adu {
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (max-width: 770px) {
-  .what-is-adu {
-    font-size: 35px;
-  }
-  .adu_1 {
-    top: 50px;
+@media only screen and (min-width: 770px) {
+  .adu-img1 {
+    position: relative;
+    left: 3.125rem;
+    top: 1.875rem;
   }
 }
