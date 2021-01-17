@@ -10,7 +10,7 @@ function Footer() {
         
             {/* Left */}
             <div className="col-12 col-lg-6">
-              <div className="inner-content--left mt-5 mb-0 my-lg-5 ">
+              <div className="inner-content--left mt-5 mb-0 my-lg-5">
                 <img src="/adu-check-logo-2.svg" className="adu-logo" alt="" />
                 <p className="adu-tagline m-0 mt-3">Easiest way to find ADU potential of your property</p>
               </div>
