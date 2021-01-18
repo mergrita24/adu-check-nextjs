@@ -35,7 +35,7 @@ const Home_section = () => (
           </div>
         </div>
 
-        <div className="col-md-6 mt-5">
+        <div className="col-md-6 ">
           <div className="inner-content--right mt-5 pt-3">
             <img className="adu-img1" src="/adu_1.svg" />
           </div>
