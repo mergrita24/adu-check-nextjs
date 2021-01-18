@@ -1,9 +1,9 @@
-const Home_section = () => (
-  <section class="adu-home--section-1 d-flex align-items-center">
+const Home_Section_1 = () => (
+  <section class="adu-home--section-1 position-relative d-flex align-items-center">
     <div className="container">
       <div className="row">
-        <div className="col-md-6">
-          <div className="inner-content--left mt-5 pt-5">
+        <div className="col-12 col-md-6">
+          <div className="inner-content--left my-5">
             <h2 className="adu-sec1--what-is-adu">WHAT IS AN ADU?</h2>
             <p className="adu-sec1--an-accessory">
               An accessory dwelling unit (ADU) is a legal and regulatory term
@@ -35,8 +35,8 @@ const Home_section = () => (
           </div>
         </div>
 
-        <div className="col-md-6 ">
-          <div className="inner-content--right mt-5 pt-3">
+        <div className="col-12 col-md-6">
+          <div className="inner-content--right my-5">
             <img className="adu-img1" src="/adu_1.svg" />
           </div>
         </div>
@@ -45,4 +45,4 @@ const Home_section = () => (
   </section>
 );
 
-export default Home_section;
+export default Home_Section_1;
