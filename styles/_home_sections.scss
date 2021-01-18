@@ -1,0 +1,56 @@
+section.adu-home--section-1 {
+  min-height: 650px;
+}
+
+.adu-sec1--what-is-adu {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #00235a;
+  font-size: 2rem;
+}
+
+.adu-sec1--an-accessory {
+  text-align: left;
+  font-size: 1.2em;
+  color: #000000;
+  line-height: 1.5;
+  margin-top: 1.563rem;
+}
+
+.adu-sec1--checkmark {
+  position: relative;
+  right: 1.25rem;
+  top: 0.938rem;
+}
+
+.adu-sec1--checkmark > li {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin-top: 0.625rem;
+}
+
+.adu-sec1--checkmark > li > span {
+  text-align: left;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+}
+.adu-sec1--checkmark > li > img {
+  margin-right: 1.25rem;
+  margin-top: 0.313rem;
+}
+
+.adu-img1 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 770px) {
+  .adu-img1 {
+    position: relative;
+    left: 3.125rem;
+    top: 1.875rem;
+  }
+}
