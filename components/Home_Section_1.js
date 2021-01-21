@@ -2,7 +2,7 @@ const Home_Section_1 = () => (
   <section class="adu-home--section-1 position-relative d-flex align-items-center">
     <div className="container">
       <div className="row">
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-lg-6">
           <div className="inner-content--left my-5">
             <h2 className="adu-sec1--what-is-adu">WHAT IS AN ADU?</h2>
             <p className="adu-sec1--an-accessory">
@@ -35,7 +35,7 @@ const Home_Section_1 = () => (
           </div>
         </div>
 
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-lg-6">
           <div className="inner-content--right my-5">
             <img className="adu-img1" src="/adu_1.svg" />
           </div>

@@ -1,8 +1,9 @@
 section.adu-home--section-1 {
-  min-height: 650px;
+  min-height: 550px;
 }
 
-.adu-sec1--what-is-adu {
+.adu-sec1--what-is-adu,
+.adu-sec2--benefits {
   text-align: left;
   text-transform: uppercase;
   font-weight: 800;
@@ -10,7 +11,8 @@ section.adu-home--section-1 {
   font-size: 2rem;
 }
 
-.adu-sec1--an-accessory {
+.adu-sec1--an-accessory,
+.adu-sec2--benefits-description {
   text-align: left;
   font-size: 1.2em;
   color: #000000;
@@ -53,4 +55,29 @@ section.adu-home--section-1 {
     left: 3.125rem;
     top: 1.875rem;
   }
+}
+
+.adu-home--sec2-card {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  min-height: 480px;
+}
+
+.adu-home--section-2 {
+  min-height: 650px;
+}
+.adu-benefits-points {
+  width: 100%;
+  font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.44;
+  color: #000000;
+}
+
+.home-sec2-card-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
